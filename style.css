@@ -348,7 +348,17 @@ footer{
     .body-text h1{
         font-size: 20px;
     }
+
+    .footer-container{
+        margin-left: 20px;
+    }
+
+    .icons{
+        display: none;
+    }
 }
+
+
 
 
 
