@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    /* add position: sticky; later to make it fixed */
+    top: 0;
+    z-index: 999;
+    border-bottom: 1px solid black;
+    box-shadow: 1px 1px 1px;
+}
+
+.logo{
+    width: 40%;
+}
+
+nav{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 12px;
+    transition: 0.3s ease;
+}
+
+nav a:hover,
+nav a:focus{
+    color: skyblue;
+}
+
+.icons i{
+    margin-left: 15px;
+}
+
+.body{
+    background: url(banner-3.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.body-text{
+    padding: 200px 100px;
+}
+
+.body-text p{
+    color: red;
+    margin-bottom: 6px;
+}
+
+.body-text h1{
+    font-size: 70px;
+}
+
+.body-text h4{
+    font-style: italic;
+    font-weight: 200;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.body-text button{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 20px;
+    margin-left: 5px;
+    border: 2px solid black;
+    background: transparent;
+    transition: .3s ease;
+}
+
+.body-text button:hover,
+.body-text button:focus{
+    color: white;
+    background: black;
+}
+
+/* PRODUCTS SECTION */
+.product{
+    width: 100%;
+    max-width: 1200px;
+}
+
+.product-title{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.product-title-span{
+    color: red;
+}
+
+.products-card{
+    margin-left: 50px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.products-card:hover{
+    transform: scale(1);
+}
+
+.products-card img{
+    width: 100%;
+   
+}
+
+.products-card-container{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin: 0 auto;
+}
+
+.product-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
+
+.product-icons .star i{
+    color: #FFD700;
+}
+
+.product-icons .heart i{
+    color: #722F37;
+}
+
+.products-card-title{
+    margin-bottom: 5px;
+}
+
+
+/* REVIEWS SECTION */
+
+.reviews{
+    margin-top: 40px;
+    padding-top: 60px;
+    background: #D3D3D3;
+    width: 100%;
+} 
+
+.review-items{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.reviews-title{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reviews-lorem{
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.reviews-write{
+    margin: 0 auto;
+    text-align: center;
+    margin: 10px 0 0 10px;
+}
+
+.reviews-office{
+    margin-top: 5px;
+    text-align: center;
+}
+
+/* UPDATES SECTION */
+
+.updates{
+    margin-top: 50px;
+}
+
+.update-title{
+    font-weight: 900;
+    text-align: center;
+}
+
+
+.updates-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin: 40px;
+}
+
+.update-card{
+    width: 350px;
+}
+
+.update-card img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.update-date{
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.update-bold{
+    font-weight: 700;
+}
+
+.update-lorem{
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+.update-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.update-link:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+/* footer */
+footer{
+    background: #D3D3D3;
+    padding-top: 50px;
+    margin-top: 50px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.footer-logo{
+    width: 50%;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.footer-address{
+    margin-bottom: 5px;
+}
+
+.footer-country{
+    margin-bottom: 10px;
+}
+
+.footer-number{
+    margin-bottom: 10px;
+}
+
+.footer-email{
+    margin-bottom: 10px;
+}
+
+.footer-socials i{
+    margin-right: 10px;
+}
+
+.footer-socials i:hover{
+    cursor: pointer;
+}
+
+.footer-support,
+.footer-company,
+.footer-shop{
+    display: grid;
+}
+
+.footer-titles{
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.footer-redirect{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 15px;
+
+}
+
+@media (max-width:732px){
+    .header nav{
+        display: none;
+    }
+
+    .footer-address{
+        margin-bottom: 40px;
+    }
+}
+
+
+@media (max-width:422px){
+    .body-text h1{
+        font-size: 20px;
+    }
+}
+
+
