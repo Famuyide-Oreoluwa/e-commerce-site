@@ -313,7 +313,38 @@ footer{
         display: none;
     }
 
-    .footer-address{
+
+
+    .footer-address,
+    .footer-support,
+    .footer-shop,
+    .footer-company{
+        margin-bottom: 40px;
+    }
+
+    .footer-container{
+        display: grid;
+    }
+
+    .product-title{
+        font-size: 25px;
+    }
+
+    .products-card{
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    
+    .review-items{
+        padding-bottom: 40px;
+        line-height: 20px;
+        font-size: 15px;
+        margin-left: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .update-card{
         margin-bottom: 40px;
     }
 }
